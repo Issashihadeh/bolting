@@ -14,7 +14,6 @@
 #include <stdio.h>
 
 #include <vector>
-#include <cstdlin.h>
 #include <cmath> // For: fabs
 
 #include <cblas.h>
