@@ -24,17 +24,5 @@ void my_dgemv(int n, double* A, double* x, double* y) {
    // insert your dgemv code here. you may need to create additional parallel regions,
    // and you may want to comment out the above parallel code block that prints out
    // nthreads and thread_id so as to not taint your timings
-   void my_dgemv(int n, double* A, double* x, double* y) {
-
-   
-   for (int i = 0; i < n; i++) {
-      double temp = 0;
-   }
-      for (int j = 0; j < n; j++) {
-         temp += A[i*n+j] * x[j];
-      }
-      y[i] += temp;
-   }
 
 }
-
