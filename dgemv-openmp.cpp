@@ -26,10 +26,10 @@ void my_dgemv(int n, double* A, double* x, double* y) {
    // nthreads and thread_id so as to not taint your timings
    void my_dgemv(int n, double* A, double* x, double* y) {
 
-   #pragma omp parallel for
+   
    for (int i = 0; i < n; i++) {
       double temp = 0;
-      #pragma omp simd reduction(+:temp)
+     
       for (int j = 0; j < n; j++) {
          temp += A[i*n+j] * x[j];
       }
