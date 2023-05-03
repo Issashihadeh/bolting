@@ -12,11 +12,11 @@
 #include <iostream>
 #include <random>
 #include <vector>
-#include <stdlib.h>
+#include <cstdlin.h>
 #include <cmath> // For: fabs
 
 #include <cblas.h>
-
+#include <string.h>
 
 // external definitions for mmul's
 extern void my_dgemv(int, double*, double*, double *);
