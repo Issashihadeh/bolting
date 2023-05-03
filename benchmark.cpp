@@ -11,8 +11,10 @@
 #include <iomanip>
 #include <iostream>
 #include <random>
+#include <stdio.h>
+
 #include <vector>
-//#include <cstdlin.h>
+#include <cstdlin.h>
 #include <cmath> // For: fabs
 
 #include <cblas.h>
