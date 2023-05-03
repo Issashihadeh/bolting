@@ -16,9 +16,9 @@ void my_dgemv(int n, double* A, double* x, double* y) {
 
    #pragma omp parallel
    {
-      int nthreads = omp_get_num_threads();
-      int thread_id = omp_get_thread_num();
-      printf("Hello world: thread %d of %d checking in. \n", thread_id, nthreads);
+//       int nthreads = omp_get_num_threads();
+//       int thread_id = omp_get_thread_num();
+//       printf("Hello world: thread %d of %d checking in. \n", thread_id, nthreads);
    }
 
    // insert your dgemv code here. you may need to create additional parallel regions,
